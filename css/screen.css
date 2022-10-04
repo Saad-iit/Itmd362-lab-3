@@ -207,6 +207,18 @@ label {
   display: block;
 }
 
+h1 {
+	
+  background-color: #c8c8c8;
+  margin: 1.375em;/* 22px */
+}
+p{
+ font-size: 20px;
+ margin: 1.375em;/* 22px */
+}
+#input-email{
+ font-size: 20px;
+}
 #email {
   box-sizing: border-box;
   margin: auto;
