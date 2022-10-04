@@ -196,38 +196,29 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-color:  #f9f9f9;
   text-align: center;
 }
 
 body {
-	
+	background-color:  #f9f9f9;
 }
 
 label {
   display: block;
 }
 
-h1 {
-
+#email {
+  box-sizing: border-box;
+  margin: auto;
 }
 
-p {
-
-}
-
-ol {
-
-}
-
-form {
+@media screen and (max-width: 300px) {
+	#email{
+		height: auto;
+		width: 100%;
+	}
 	
 }
-
-input {
-
-}
-
 
 /* ===== LAYOUT STYLES ====== */
 
