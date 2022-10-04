@@ -204,31 +204,55 @@ body {
 }
 
 label {
+  margin: 0.5em;/* 8px */
   display: block;
 }
 
 h1 {
-	
+  font-size: 1.375em;/* 22px */
   background-color: #c8c8c8;
   margin: 1.375em;/* 22px */
 }
 p{
- font-size: 20px;
+ font-size: 1em;/* 16px */
  margin: 1.375em;/* 22px */
 }
 #input-email{
- font-size: 20px;
+ font-size: 1em;/* 16px */
 }
 #email {
   box-sizing: border-box;
   margin: auto;
 }
 
+#age-verification {
+	font-size: 0.8125em;/* 13px */
+	margin: 1.375em;/* 22px */
+}
+
+#submit{
+	margin: 1.375em;/* 22px */
+}
 @media screen and (max-width: 300px) {
 	#email{
 		height: auto;
 		width: 100%;
 	}
+	h1 {
+	   font-size: 1.25em;/* 20px */
+       background-color: #c8c8c8;
+       margin: 1.375em;/* 22px */
+    }
+    p{
+       font-size: 0.8125em;/* 13px */
+    }
+    #input-email{
+       font-size: 0.8125em;/* 13px */
+    }
+    #age-verification {
+	   font-size: 1.25em;/* 10px */
+    }
+  
 	
 }
 
