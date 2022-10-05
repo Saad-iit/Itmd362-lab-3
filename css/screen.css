@@ -205,14 +205,14 @@ body {
 
 label {
   color: #3F3844;
-  margin: 0.5em;/* 8px */
+  margin: 0.125em; /* 2px */
   display: block;
 }
 
 h1 {
   color: #3F3844;
   font-size: 1.375em;/* 22px */
-  background-color: #a4a4a4 ;
+  background-color:  #5aeaf7;
   margin: 1.375em;/* 22px */
 }
 p{
@@ -223,16 +223,21 @@ p{
 #input-email{
   color: #3F3844;
   font-size: 1em;/* 16px */
+  margin-top: 1.375em;/* 22px */
+  margin-bottom: 1em;/* 16px */
 }
 #email {
+  background-color:#a4a4a4 ;
   box-sizing: border-box;
   margin: auto;
 }
 
-#age-verification {
+#input-age-verification {
   color: #3F3844;
   font-size: 0.8125em;/* 13px */
-  margin: 1.375em;/* 22px */
+  margin-top: 2.375em;/* 32px */
+  margin-bottom: 1em;/* 16px */
+  
 }
 
 #submit{
@@ -247,18 +252,17 @@ p{
 	}
 	h1 {
 	   font-size: 1.25em;/* 20px */
-       background-color: #a4a4a4 ;
        margin: 1.375em;/* 22px */
     }
     p{
        font-size: 0.8125em;/* 13px */
     }
     #input-email{
-       font-size: 0.8125em;/* 13px */
+       font-size: 1em;/* 16px */
     }
-    #age-verification {
-	   font-size: 1.25em;/* 10px */
-    }
+	#input-age-verification {
+		font-size: 0.8125em;/* 13px */
+	}
   
 	
 }
