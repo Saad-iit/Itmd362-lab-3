@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  font-family: Arial,Helvetica,"Roboto",sans-serif; 
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -210,6 +211,7 @@ label {
 }
 
 h1 {
+  font-weight: bold;
   color: #3F3844;
   font-size: 1.375em;/* 22px */
   background-color:  #5aeaf7;
